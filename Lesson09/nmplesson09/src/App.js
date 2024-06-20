@@ -26,7 +26,7 @@ function App() {
         Xử lý chức năng CRUD - Hook - API
       </h1>
       <hr />
-      <NmpStudentList renderNmpStudentList = {NmpStudentList} />
+      <NmpStudentList renderNmpStudentList = {nmpStudentList} />
     </div>
   );
 }

@@ -7,13 +7,13 @@ export default function NMP_EventForm2() {
         console.log(content);
         console.log('===========================');
     }
-    return ( <
-        div className = 'alert alert-success' >
-        <
-        h2 > Event Demo - Function Component < /h2> <
-        button onClick = { eventHandleClick1("Nguyễn Minh Phương") } > Gọi khi render < /button> <
-        button onClick = {
-            () => eventHandleClick1("K22CNTT4-REACTJS") } > Gọi khi click < /button> <
-        /div>
+    return ( 
+        <div className = 'alert alert-success' >
+        
+        <  h2 > Event Demo - Function Component < /h2> 
+        < button onClick = { eventHandleClick1("Nguyễn Minh Phương") } > Gọi khi render < /button> 
+        < button onClick = {
+            () => eventHandleClick1("K22CNTT4-REACTJS") } > Gọi khi click < /button> 
+        </div>
     )
 }

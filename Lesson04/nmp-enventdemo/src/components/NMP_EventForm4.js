@@ -15,13 +15,13 @@ class NMP_EventForm4 extends Component {
         })
     }
     render() {
-        return ( <
-            div className = 'alert alert-info' >
-            <
-            h2 > Lấy dữ liệu từ props < /h2> <
-            button onClick = { this.handleGetName } > Lấy tên < /button> <
-            h2 > Welcome to, { this.state.name } < /h2> <
-            /div>
+        return ( 
+           < div className = 'alert alert-info' >
+            
+            <h2 > Lấy dữ liệu từ props < /h2> 
+            < button onClick = { this.handleGetName } > Lấy tên < /button> 
+            < h2 > Welcome to, { this.state.name } < /h2> 
+            < / div >
         );
     }
 }
